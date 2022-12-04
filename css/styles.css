@@ -1,0 +1,336 @@
+/*Homepage*/
+h1 {
+    padding-left: 15%;
+    padding-top: 3%;
+    font-size: 90px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    font-family: Videophreak;
+}
+
+/*Visuals, Glitch*/
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 3.5%;
+    padding-top: 0.01%;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 80px;
+    line-height: 60px;
+    margin-left: 5rem;
+}
+
+/* My Work, Contact, Blog  */
+h3 {
+    padding-left: 3.5%;
+    padding-top: 1%;
+    font-size: 85px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 750px;
+    left: 2%;
+    font-family: 'Videophreak';
+}
+
+/*Design   AI ART*/
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 8%;
+    padding-top: 0.01%;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 150px;
+    line-height: 60px;
+    margin-left: 22rem;
+}
+
+/*Experiences, Design*/
+h5 {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 5%;
+    padding-top: 0.01%;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    line-height: 60px;
+    margin-left: 38rem;
+}
+
+/*Games, Bizarre Photography*/
+h6 {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 10%;
+    padding-top: 0.01%;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 400px;
+    line-height: 60px;
+    margin-left: 66rem;
+}
+
+/*Glitch Series*/
+h7 {
+    padding-left: 3.5%;
+    padding-top: 5%;
+    font-size: 90px;
+    text-align: left;
+    color: #6910AE;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 150px;
+    left: 2%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h8 {
+    padding-left: 3.5%;
+    padding-top: 1%;
+    font-size: 85px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 1000px;
+    left: 2%;
+    font-family: 'Videophreak';
+}
+
+h9 {
+    padding-left: 0%;
+    padding-top: 10%;
+    font-size: 30px;
+    color: #111111;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 2px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*bold purple paragraph text */
+h10 {
+
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "Roboto Mono", Roboto, monospace;
+    letter-spacing: 0.15em;
+    color: #6910AE;
+}
+
+/* Self Portrait*/
+h11 {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 1%;
+    padding-top: 0.01%;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 340px;
+    line-height: 60px;
+    margin-left: 53rem;
+}
+
+h12 {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 15%;
+    padding-top: 0.01%;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 250px;
+    line-height: 60px;
+    margin-left: 38rem;
+}
+
+
+body {
+    font-size: 23px;
+    font-family: "Roboto Mono", Roboto, monospace;
+    letter-spacing: 0.15em;
+    background-color: #000000;
+    /*   padding-top: 20px;
+    text-align: left;*/
+}
+
+
+
+/*page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color: #ffffff;
+}*/
+
+#logo {
+    width: 150px;
+    margin: 10px auto 25px auto;
+}
+
+ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+p {
+    padding-left: 6%;
+    text-align: left;
+    margin-top: 200px;
+    width: 800px;
+    margin: 10px auto, 40px;
+    font-weight: normal;
+    line-height: 2;
+    width: 60%;
+    height: 100%;
+}
+
+p.two {
+
+    text-align: right;
+    margin-top: 200px;
+    width: 800px;
+    margin: 30px, 40px;
+    font-weight: normal;
+    line-height: 2;
+    width: 60%;
+    height: 100%;
+}
+
+
+
+
+a {
+    color: #ffffff;
+    text-transform: initial;
+    text-decoration: none;
+    /*padding: 6px 18px 5px 18px;*/
+}
+
+/*a:hover,
+a.on {
+    color: #cc3333;
+    background-color: #ffffff;
+}*/
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    padding: 10px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-wrapper {
+    padding-top: 150px;
+    /*espaciado antes del texto*/
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 300px;
+    grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+@media (max-width: 600px) {
+
+    #sidebar,
+    #main {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+
+    }
+}
