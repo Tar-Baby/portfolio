@@ -1,5 +1,27 @@
-/*Homepage*/
-h1 {
+@font-face {
+    font-family: 'videophreak.regular';
+    src: url('../webfonts/webfontkit-Videophreak/videophreak.regular-webfont.woff2') format('woff2'),
+        url('../webfonts/webfontkit-Videophreak/videophreak.regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* this means: 
+    apply the background image to a 'body' element with the class 
+    'homepage' 
+*/
+body.homepage {
+    background-image: url('../img/backgrounds/index.jpg');
+    /* background-repeat: no-repeat;*/
+    background-size: 100%;
+}
+
+/* this means: 
+    apply the style to an 'h1' element that is inside a 'body' element 
+    with the class 'homepage' 
+*/
+body.homepage h1 {
+    font-family: 'videophreak.regular';
     padding-left: 15%;
     padding-top: 3%;
     font-size: 90px;
@@ -9,27 +31,27 @@ h1 {
     height: 100%;
     position: relative;
     top: 100px;
-    font-family: Videophreak;
 }
 
-/*Visuals, Glitch*/
-h2 {
-    font-family: 'Roboto Mono', monospace;
+/* this means: 
+    apply the style to an 'span' element that is inside a 'body' element 
+    with the class 'contact' 
+*/
+body.contact span {
     padding-left: 3.5%;
-    padding-top: 0.01%;
-    font-size: 50px;
+    padding-top: 1%;
+    font-size: 85px;
     text-align: left;
     color: #ffffff;
     width: 100%;
     height: 100%;
     position: relative;
-    top: 80px;
-    line-height: 60px;
-    margin-left: 5rem;
+    top: 1000px;
+    left: 2%;
+    font-family: 'videophreak.regular';
 }
 
-/* My Work, Contact, Blog  */
-h3 {
+body.my-work span {
     padding-left: 3.5%;
     padding-top: 1%;
     font-size: 85px;
@@ -40,59 +62,107 @@ h3 {
     position: relative;
     top: 750px;
     left: 2%;
-    font-family: 'Videophreak';
+    font-family: 'videophreak.regular';
 }
 
-/*Design   AI ART*/
-h4 {
+/* this means: 
+    apply the style to all 'h1' elements that are inside a 'body' element 
+    with the class 'my-work'.   Here we can put all the properties that
+    these kind of elements have in common.  
+    Like that you avoid code duplication, and also if you need to do a change,
+    you just have to do it in one place. 
+*/
+body.my-work h1,
+body.contact h1 {
     font-family: 'Roboto Mono', monospace;
-    padding-left: 8%;
-    padding-top: 0.01%;
     font-size: 50px;
     text-align: left;
     color: #ffffff;
     width: 100%;
     height: 100%;
     position: relative;
+}
+
+/* this means: 
+    apply the style to an 'h1' element with id 'glitch-link' 
+    that is inside a 'body' element with the class 'my-work' 
+*/
+body.my-work h1#glitch-link {
+    padding-left: 3.5%;
+    padding-top: 0.01%;
+    top: 80px;
+    line-height: 60px;
+    margin-left: 5rem;
+}
+
+
+body.my-work h1#ai-art-link {
+    padding-left: 8%;
+    padding-top: 0.01%;
     top: 150px;
     line-height: 60px;
     margin-left: 22rem;
 }
 
-/*Experiences, Design*/
-h5 {
-    font-family: 'Roboto Mono', monospace;
+body.my-work h1#design-link {
     padding-left: 5%;
     padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
     top: 100px;
     line-height: 60px;
     margin-left: 38rem;
 }
 
-/*Games, Bizarre Photography*/
-h6 {
-    font-family: 'Roboto Mono', monospace;
+body.my-work h1#self-portrait-link {
+    padding-left: 1%;
+    padding-top: 0.01%;
+    top: 340px;
+    line-height: 60px;
+    margin-left: 53rem;
+}
+
+
+body.my-work h1#bizarre-photography-link {
     padding-left: 10%;
     padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
     top: 400px;
     line-height: 60px;
     margin-left: 66rem;
 }
 
-/*Glitch Series*/
-h7 {
+
+body.contact h1#github-link {
+    padding-left: 3.5%;
+    padding-top: 0.01%;
+    top: 80px;
+    line-height: 60px;
+    margin-left: 5rem;
+}
+
+body.contact h1#instagram-link {
+    padding-left: 8%;
+    padding-top: 0.01%;
+    top: 150px;
+    line-height: 60px;
+    margin-left: 22rem;
+}
+
+body.contact h1#linkedin-link {
+    padding-left: 15%;
+    padding-top: 0.01%;
+    top: 250px;
+    line-height: 60px;
+    margin-left: 38rem;
+}
+
+body.contact h1#email-link {
+    padding-left: 10%;
+    padding-top: 0.01%;
+    top: 400px;
+    line-height: 60px;
+    margin-left: 66rem;
+}
+
+h1.big-purple-title {
     padding-left: 3.5%;
     padding-top: 5%;
     font-size: 90px;
@@ -106,22 +176,12 @@ h7 {
     font-family: 'Roboto Mono', monospace;
 }
 
-
-h8 {
-    padding-left: 3.5%;
-    padding-top: 1%;
-    font-size: 85px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 1000px;
-    left: 2%;
-    font-family: 'Videophreak';
+/*About Me*/
+body.about-me {
+    background-color: white;
 }
 
-h9 {
+body.about-me h2 {
     padding-left: 0%;
     padding-top: 10%;
     font-size: 30px;
@@ -134,8 +194,7 @@ h9 {
 }
 
 /*bold purple paragraph text */
-h10 {
-
+span.purple-inline-text {
     font-size: 23px;
     font-weight: bold;
     font-family: "Roboto Mono", Roboto, monospace;
@@ -143,38 +202,7 @@ h10 {
     color: #6910AE;
 }
 
-/* Self Portrait*/
-h11 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 1%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 340px;
-    line-height: 60px;
-    margin-left: 53rem;
-}
-
-h12 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 15%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 250px;
-    line-height: 60px;
-    margin-left: 38rem;
-}
-
-
+/* y esto????  xddd */
 body {
     font-size: 23px;
     font-family: "Roboto Mono", Roboto, monospace;
@@ -183,8 +211,6 @@ body {
     /*   padding-top: 20px;
     text-align: left;*/
 }
-
-
 
 /*page {
     max-width: 940px;
