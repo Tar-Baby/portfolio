@@ -76,7 +76,8 @@ span.purple-inline-text {
     width: 7%;
     right: 5%;
     top: 1.5%;
-    visibility: show
+    visibility: show;
+    z-index: 1;
 }
 
 .close-icon {
@@ -84,6 +85,7 @@ span.purple-inline-text {
     width: 90px;
     right: 5%;
     visibility: show;
+    z-index: 1;
 }
 
 
@@ -203,6 +205,35 @@ body.my-work h1.bizarre-photography-link {
 
 body.my-work-subsection {
     background-color: white;
+}
+
+
+body.ai-art .otras-formas-section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+body.ai-art .otras-formas-section p {
+    margin: 0px;
+    text-align: justify;
+}
+
+body.ai-art .otras-formas-section b {
+    font-size: larger;
+}
+
+body.ai-art .otras-formas-section img {
+    max-width: 90%;
+}
+
+@media (max-width: 900px) {
+    body.ai-art .otras-formas-section {
+        display: flex;
+        flex-flow: column nowrap;
+    }
 }
 
 /* Contact */
@@ -356,6 +387,7 @@ body.about-me ul.skills li {
 
 
 /* Image grids */
+
 .grid-wrapper>div {
     display: flex;
     justify-content: center;
