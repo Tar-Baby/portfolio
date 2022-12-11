@@ -76,23 +76,24 @@ span.purple-inline-text {
 }
 
 /* Logo & close icons */
-#isotipo-solo {
-    position: absolute;
+.isotipo-solo {
+    position: fixed;
     width: 7%;
-    right: 4%;
+    right: 5%;
     top: 1.5%;
-    visibility: show
+    visibility: show;
+    z-index: 1;
 }
 
-#logo {
-    position: absolute;
+.logo {
+    position: fixed;
     width: 7%;
     right: 5%;
     top: 1.5%;
     visibility: show
 }
 
-#close-icon {
+.close-icon {
     position: fixed;
     width: 90px;
     right: 5%;
@@ -101,7 +102,7 @@ span.purple-inline-text {
 
 
 @media (max-width: 450px) {
-    #close-icon {
+    .close-icon {
         position: fixed;
         width: 50px;
         right: 5%;
@@ -154,19 +155,22 @@ body.homepage h1 {
     Like that you avoid code duplication, and also if you need to do a change,
     you just have to do it in one place. 
 */
+
+body.my-work {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url('../img/backgrounds/20220927_203520.png');
+    background-size: 100%;
+}
+
 body.my-work h1 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: left;
     color: #ffffff;
     width: 100%;
     height: 100%;
     position: relative;
-}
-
-body.my-work {
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 body.my-work h1.link {
@@ -200,14 +204,8 @@ body.my-work h1.bizarre-photography-link {
 }
 
 @media (max-width: 900px) {
-    #sidebar {
-        width: 100%;
-        float: none;
-    }
-
     body.my-work {
-        max-width: 100%;
-        overflow-x: hidden;
+        font-size: 1em;
     }
 
     body.my-work h1.link {
@@ -218,9 +216,17 @@ body.my-work h1.bizarre-photography-link {
 }
 
 /* Contact */
+body.contact {
+    background-image: url('../img/backgrounds/Catacombs_of_Solaris_20220522_085711_4.png');
+    /* background-repeat: no-repeat;*/
+    background-size: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body.contact h1 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 50px;
+    font-size: 1.5em;
     text-align: left;
     color: #ffffff;
     width: 100%;
@@ -229,50 +235,51 @@ body.contact h1 {
 }
 
 /* apply the style to an 'span' element that is inside a 'body' element with the class 'contact' */
-body.contact span {
+body.contact span.contact-header {
     padding-left: 3.5%;
-    padding-top: 1%;
-    font-size: 85px;
-    text-align: left;
+    font-size: 2em;
     color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 1000px;
-    left: 2%;
     font-family: 'videophreak.regular';
 }
 
-body.contact h1#github-link {
-    padding-left: 3.5%;
-    padding-top: 0.01%;
-    top: 80px;
+body.contact h1.link {
     line-height: 60px;
-    margin-left: 5rem;
+    padding-top: 5%;
 }
 
-body.contact h1#instagram-link {
-    padding-left: 8%;
-    padding-top: 0.01%;
-    top: 150px;
-    line-height: 60px;
-    margin-left: 22rem;
+body.contact h1.github-link {
+    margin-left: 5%;
 }
 
-body.contact h1#linkedin-link {
-    padding-left: 15%;
-    padding-top: 0.01%;
-    top: 250px;
-    line-height: 60px;
-    margin-left: 38rem;
+body.contact h1.instagram-link {
+    margin-left: 20%;
 }
 
-body.contact h1#email-link {
-    padding-left: 10%;
-    padding-top: 0.01%;
-    top: 400px;
-    line-height: 60px;
-    margin-left: 66rem;
+body.contact h1.linkedin-link {
+    margin-left: 30%;
+}
+
+body.contact h1.email-link {
+    margin-left: 40%;
+}
+
+@media (max-width: 900px) {
+    body.contact {
+        font-size: 10px;
+    }
+
+    body.contact span.contact-header {
+        padding-left: 3.5%;
+        font-size: 30px;
+        color: #ffffff;
+        font-family: 'videophreak.regular';
+    }
+
+    body.contact h1.link {
+        margin-left: 0px;
+        padding-left: 5%;
+        margin-top: 20px;
+    }
 }
 
 h1.big-purple-title {
