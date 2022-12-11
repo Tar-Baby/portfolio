@@ -40,20 +40,6 @@ body {
 }
 
 
-ul {
-    width: 570px;
-    padding: 15px;
-    margin: 0px auto 0px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
-    text-align: center;
-}
-
-li {
-    display: inline;
-    margin: 0px 3px;
-}
-
 p {
     padding-left: 6%;
     text-align: left;
@@ -215,6 +201,10 @@ body.my-work h1.bizarre-photography-link {
     }
 }
 
+body.my-work-subsection {
+    background-color: white;
+}
+
 /* Contact */
 body.contact {
     background-image: url('../img/backgrounds/Catacombs_of_Solaris_20220522_085711_4.png');
@@ -298,31 +288,72 @@ h1.big-purple-title {
 
 /*About Me*/
 body.about-me {
+    padding-left: 5%;
     background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-body.about-me h2 {
-    padding-left: 0%;
-    padding-top: 10%;
-    font-size: 30px;
-    color: #111111;
+body.about-me .intro {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+body.about-me .intro-text {
+    text-align: left;
+    margin-top: 0px;
     width: 100%;
-    height: 100%;
-    position: relative;
-    top: 2px;
-    font-family: 'Roboto Mono', monospace;
 }
 
-p.about-me {
-    text-align: right;
-    margin-top: 200px;
-    width: 800px;
-    margin: 30px, 40px;
-    font-weight: normal;
-    line-height: 2;
-    width: 60%;
-    height: 100%;
+body.about-me img.me {
+    max-width: 30%;
 }
+
+body.about-me hr.hobbies-horizontal-rule {
+    margin-top: 100px;
+}
+
+body.about-me div.hobbies {
+    width: 90%;
+    padding: 15px;
+    margin: 20px auto 30px auto;
+    text-align: center;
+}
+
+
+body.about-me ul.skills {
+    width: 60%;
+    padding: 15px;
+    margin: 20px auto 30px auto;
+    text-align: center;
+}
+
+body.about-me ul.skills li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+@media (max-width: 900px) {
+    body.about-me img.me {
+        max-width: 50%;
+    }
+
+    body.about-me .intro {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    body.about-me .intro-text {
+        text-align: center;
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
 
 /* Image grids */
 .grid-wrapper>div {
