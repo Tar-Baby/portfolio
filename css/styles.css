@@ -1,218 +1,44 @@
-/*Homepage*/
-h1 {
-    padding-left: 15%;
-    padding-top: 3%;
-    font-size: 90px;
-    text-align: left;
+/* Estilos generales */
+
+@font-face {
+    font-family: 'videophreak.regular';
+    src: url('../webfonts/webfontkit-Videophreak/videophreak.regular-webfont.woff2') format('woff2'),
+        url('../webfonts/webfontkit-Videophreak/videophreak.regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+a {
     color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 100px;
-    font-family: Videophreak;
+    text-transform: initial;
+    text-decoration: none;
 }
-
-/*Visuals, Glitch*/
-h2 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 3.5%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 80px;
-    line-height: 60px;
-    margin-left: 5rem;
-}
-
-/* My Work, Contact, Blog  */
-h3 {
-    padding-left: 3.5%;
-    padding-top: 1%;
-    font-size: 85px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 750px;
-    left: 2%;
-    font-family: 'Videophreak';
-}
-
-/*Design   AI ART*/
-h4 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 8%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 150px;
-    line-height: 60px;
-    margin-left: 22rem;
-}
-
-/*Experiences, Design*/
-h5 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 5%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 100px;
-    line-height: 60px;
-    margin-left: 38rem;
-}
-
-/*Games, Bizarre Photography*/
-h6 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 10%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 400px;
-    line-height: 60px;
-    margin-left: 66rem;
-}
-
-/*Glitch Series*/
-h7 {
-    padding-left: 3.5%;
-    padding-top: 5%;
-    font-size: 90px;
-    text-align: left;
-    color: #6910AE;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 150px;
-    left: 2%;
-    font-family: 'Roboto Mono', monospace;
-}
-
-
-h8 {
-    padding-left: 3.5%;
-    padding-top: 1%;
-    font-size: 85px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 1000px;
-    left: 2%;
-    font-family: 'Videophreak';
-}
-
-h9 {
-    padding-left: 0%;
-    padding-top: 10%;
-    font-size: 30px;
-    color: #111111;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 2px;
-    font-family: 'Roboto Mono', monospace;
-}
-
-/*bold purple paragraph text */
-h10 {
-
-    font-size: 23px;
-    font-weight: bold;
-    font-family: "Roboto Mono", Roboto, monospace;
-    letter-spacing: 0.15em;
-    color: #6910AE;
-}
-
-/* Self Portrait*/
-h11 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 1%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 340px;
-    line-height: 60px;
-    margin-left: 53rem;
-}
-
-h12 {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 15%;
-    padding-top: 0.01%;
-    font-size: 50px;
-    text-align: left;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 250px;
-    line-height: 60px;
-    margin-left: 38rem;
-}
-
 
 body {
     font-size: 23px;
     font-family: "Roboto Mono", Roboto, monospace;
     letter-spacing: 0.15em;
     background-color: #000000;
-    /*   padding-top: 20px;
-    text-align: left;*/
 }
 
-
-
-/*page {
-    max-width: 940px;
-    min-width: 720px;
-    margin: 10px auto 10px auto;
-    padding: 20px;
-    border: 4px double #000;
-    background-color: #ffffff;
-}*/
-
-#logo {
-    width: 150px;
-    margin: 10px auto 25px auto;
-}
-
-ul {
-    width: 570px;
-    padding: 15px;
-    margin: 0px auto 0px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
-    text-align: center;
-}
-
-li {
-    display: inline;
-    margin: 0px 3px;
-}
 
 p {
     padding-left: 6%;
@@ -226,55 +52,342 @@ p {
     height: 100%;
 }
 
-p.two {
+/*bold purple paragraph text */
+span.purple-inline-text {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "Roboto Mono", Roboto, monospace;
+    letter-spacing: 0.15em;
+    color: #6910AE;
+}
 
-    text-align: right;
-    margin-top: 200px;
-    width: 800px;
-    margin: 30px, 40px;
-    font-weight: normal;
-    line-height: 2;
-    width: 60%;
-    height: 100%;
+/* Logo & close icons */
+.isotipo-solo {
+    position: fixed;
+    width: 7%;
+    right: 5%;
+    top: 1.5%;
+    visibility: show;
+    z-index: 1;
+}
+
+.logo {
+    position: fixed;
+    width: 7%;
+    right: 5%;
+    top: 1.5%;
+    visibility: show;
+    z-index: 1;
+}
+
+.close-icon {
+    position: fixed;
+    width: 90px;
+    right: 5%;
+    visibility: show;
+    z-index: 1;
 }
 
 
+@media (max-width: 450px) {
+    .close-icon {
+        position: fixed;
+        width: 50px;
+        right: 5%;
+        visibility: show;
+    }
+}
 
+/* Homepage */
+/* apply the background image to a 'body' element with the class 'homepage' */
+body.homepage {
+    background-image: url('../img/backgrounds/index.jpg');
+    /* background-repeat: no-repeat;*/
+    background-size: 100%;
+}
 
-a {
+/* apply the style to an 'h1' element that is inside a 'body' element with the class 'homepage' */
+body.homepage h1 {
+    font-family: 'videophreak.regular';
+    padding-left: 15%;
+    padding-top: 3%;
+    font-size: 60px;
+    text-align: left;
     color: #ffffff;
-    text-transform: initial;
-    text-decoration: none;
-    /*padding: 6px 18px 5px 18px;*/
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 100px;
 }
 
-/*a:hover,
-a.on {
-    color: #cc3333;
-    background-color: #ffffff;
-}*/
 
-* {
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
+@media (max-width: 450px) {
+    body.homepage h1 {
+        font-family: 'videophreak.regular';
+        padding-left: 15%;
+        margin-top: 50px;
+        font-size: 1.5em;
+        color: #ffffff;
+        position: relative;
+        top: 100px;
+    }
 }
 
-html,
-body {
 
-    padding: 10px;
+/* My Work */
 
-}
+/* 
+    apply the style to all 'h1' elements that are inside a 'body' element 
+    with the class 'my-work'.   Here we can put all the properties that
+    these kind of elements have in common.  
+    Like that you avoid code duplication, and also if you need to do a change,
+    you just have to do it in one place. 
+*/
 
-img {
+body.my-work {
     max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    display: inline-block;
+    overflow-x: hidden;
+    background-image: url('../img/backgrounds/20220927_203520.png');
+    background-size: 100%;
 }
 
-/* Main CSS */
+body.my-work h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.8em;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body.my-work h1.link {
+    line-height: 60px;
+    padding-top: 5%;
+}
+
+/* 
+    apply the style to an 'h1' element with class 'glitch-link' 
+    that is inside a 'body' element with the class 'my-work' 
+*/
+body.my-work h1.glitch-link {
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+body.my-work h1.ai-art-link {
+    margin-left: 20%;
+}
+
+body.my-work h1.design-link {
+    margin-left: 30%;
+}
+
+body.my-work h1.self-portrait-link {
+    margin-left: 40%;
+}
+
+body.my-work h1.bizarre-photography-link {
+    margin-left: 50%;
+}
+
+@media (max-width: 900px) {
+    body.my-work {
+        font-size: 1em;
+    }
+
+    body.my-work h1.link {
+        margin-left: 0px;
+        padding-left: 5%;
+        margin-top: 40px;
+    }
+}
+
+body.my-work-subsection {
+    background-color: white;
+}
+
+
+body.ai-art .otras-formas-section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+body.ai-art .otras-formas-section p {
+    margin: 0px;
+    text-align: justify;
+}
+
+body.ai-art .otras-formas-section b {
+    font-size: larger;
+}
+
+body.ai-art .otras-formas-section img {
+    max-width: 90%;
+}
+
+@media (max-width: 900px) {
+    body.ai-art .otras-formas-section {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
+
+/* Contact */
+body.contact {
+    background-image: url('../img/backgrounds/Catacombs_of_Solaris_20220522_085711_4.png');
+    /* background-repeat: no-repeat;*/
+    background-size: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body.contact h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* apply the style to an 'span' element that is inside a 'body' element with the class 'contact' */
+body.contact span.contact-header {
+    padding-left: 3.5%;
+    font-size: 2em;
+    color: #ffffff;
+    font-family: 'videophreak.regular';
+}
+
+body.contact h1.link {
+    line-height: 60px;
+    padding-top: 5%;
+}
+
+body.contact h1.github-link {
+    margin-left: 5%;
+}
+
+body.contact h1.instagram-link {
+    margin-left: 20%;
+}
+
+body.contact h1.linkedin-link {
+    margin-left: 30%;
+}
+
+body.contact h1.email-link {
+    margin-left: 40%;
+}
+
+@media (max-width: 900px) {
+    body.contact {
+        font-size: 10px;
+    }
+
+    body.contact span.contact-header {
+        padding-left: 3.5%;
+        font-size: 30px;
+        color: #ffffff;
+        font-family: 'videophreak.regular';
+    }
+
+    body.contact h1.link {
+        margin-left: 0px;
+        padding-left: 5%;
+        margin-top: 20px;
+    }
+}
+
+h1.big-purple-title {
+    padding-left: 3.5%;
+    padding-top: 5%;
+    font-size: 90px;
+    text-align: left;
+    color: #6910AE;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 150px;
+    left: 2%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*About Me*/
+body.about-me {
+    padding-left: 5%;
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body.about-me .intro {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+body.about-me .intro-text {
+    text-align: left;
+    margin-top: 0px;
+    width: 100%;
+}
+
+body.about-me img.me {
+    max-width: 30%;
+}
+
+body.about-me hr.hobbies-horizontal-rule {
+    margin-top: 100px;
+}
+
+body.about-me div.hobbies {
+    width: 90%;
+    padding: 15px;
+    margin: 20px auto 30px auto;
+    text-align: center;
+}
+
+
+body.about-me ul.skills {
+    width: 60%;
+    padding: 15px;
+    margin: 20px auto 30px auto;
+    text-align: center;
+}
+
+body.about-me ul.skills li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+@media (max-width: 900px) {
+    body.about-me img.me {
+        max-width: 50%;
+    }
+
+    body.about-me .intro {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    body.about-me .intro-text {
+        text-align: center;
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+
+/* Image grids */
+
 .grid-wrapper>div {
     display: flex;
     justify-content: center;
@@ -313,11 +426,9 @@ img {
     grid-row: span 2;
 }
 
-
+/* Media queries for responsiveness on smaller screens */
 @media (max-width: 600px) {
-
-    #sidebar,
-    #main {
+    #sidebar {
         width: 100%;
         float: none;
     }
